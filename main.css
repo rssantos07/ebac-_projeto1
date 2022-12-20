@@ -1,0 +1,174 @@
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body, input, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+header,
+section h2, h3 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+h2,h3 {
+    color: #aa1e02;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+body>header {
+    background-color: #aa1e02;
+    color: #f5f6fa;
+    padding: 16px 0;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #f5f6fa;
+}
+
+header li a:hover {
+    color: #b6b7bb;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article img {
+   width: 400px;
+
+}
+
+.articles article a {
+    text-decoration: none;
+    color: #747474;
+}
+ 
+.articles2  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+} 
+
+.articles2 article {
+    width: 23%;
+}
+
+.articles2 article img {
+    height: 180px;
+ }
+
+ .articles2 article a {
+    text-decoration: none;
+    color: #747474;
+}
+
+.aval1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aval1 img{
+
+    background-color: #aa1e02;
+    margin-right: 30px;
+}
+
+.aval1 p {
+    width: 50%;
+}
+
+.aval1 .imagem-texto {
+    display: block;
+    background-color: #aa1e02;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width:320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color:#aa1e02;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    width: 340px;
+}
+form button:hover {
+    background-color: #551002;
+}
+
+input:focus,
+textarea:focus {
+    outline-color:  #551002;
+}
+
+
+
+
+.social img{
+    height: 24px;
+}
+.social li {
+    display: inline;    
+    padding: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subir {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+}
+
+.subir section a {
+    color: rgb(0, 0, 0);
+}
+ 
+.contact-methods p {
+    color: #747474;
+}
+
+footer {
+    background-color:#aa1e02;
+    color:#ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 10px;
+}
