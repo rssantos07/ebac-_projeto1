@@ -103,6 +103,11 @@ header li a:hover {
     background-color: #aa1e02;
 }
 
+.carro img{
+    margin-top: 16px;
+    width: 1366px;
+}
+
 form input,
 form textarea,
 form button {
@@ -165,6 +170,9 @@ textarea:focus {
     color: #747474;
 }
 
+.natal img{
+    height: 600px;
+}
 footer {
     background-color:#aa1e02;
     color:#ecf0f1;
